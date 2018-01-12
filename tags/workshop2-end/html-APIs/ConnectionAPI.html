@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html><head><title>Connection API documentation</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="generator" content="https://github.com/raml2html/raml2html 6.4.2"><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css"><script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script><script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script><script type="text/javascript">
+<!DOCTYPE HTML><html><head><title>Connection API documentation</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="generator" content="https://github.com/raml2html/raml2html 6.6.0"><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css"><script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script><script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script><script type="text/javascript">
       $(document).ready(function() {
         $('.page-header pre code, .top-resource-description pre code, .modal-body pre code').each(function(i, block) {
           hljs.highlightBlock(block);
@@ -192,7 +192,7 @@
                 "type": "string",
                 "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
             },
-            "params": { "$ref": "schemas/v1.0-sender-stage-schema.json"}
+            "params": { "$ref": "v1.0-sender-stage-schema.json"}
         }
     }
 }
@@ -341,7 +341,7 @@
                 "type": "string",
                 "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
             },
-            "params": { "$ref": "schemas/v1.0-receiver-stage-schema.json"}
+            "params": { "$ref": "v1.0-receiver-stage-schema.json"}
         }
     }
 }
@@ -862,8 +862,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_sender_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_sender_transport_params_dash.json" }
+                { "$ref": "v1.0_sender_transport_params_rtp.json" },
+                { "$ref": "v1.0_sender_transport_params_dash.json" }
             ]
         }
     }
@@ -1003,8 +1003,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_sender_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_sender_transport_params_dash.json" }
+                { "$ref": "v1.0_sender_transport_params_rtp.json" },
+                { "$ref": "v1.0_sender_transport_params_dash.json" }
             ]
         }
     }
@@ -1135,8 +1135,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_sender_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_sender_transport_params_dash.json" }
+                { "$ref": "v1.0_sender_transport_params_rtp.json" },
+                { "$ref": "v1.0_sender_transport_params_dash.json" }
             ]
         }
     }
@@ -1270,8 +1270,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_sender_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_sender_transport_params_dash.json" }
+                { "$ref": "v1.0_sender_transport_params_rtp.json" },
+                { "$ref": "v1.0_sender_transport_params_dash.json" }
             ]
         }
     }
@@ -1499,8 +1499,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_sender_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_sender_transport_params_dash.json" }
+                { "$ref": "v1.0_sender_transport_params_rtp.json" },
+                { "$ref": "v1.0_sender_transport_params_dash.json" }
             ]
         }
     }
@@ -1919,8 +1919,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_receiver_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_receiver_transport_params_dash.json" }
+                { "$ref": "v1.0_receiver_transport_params_rtp.json" },
+                { "$ref": "v1.0_receiver_transport_params_dash.json" }
             ]
         }
     }
@@ -2115,8 +2115,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_receiver_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_receiver_transport_params_dash.json" }
+                { "$ref": "v1.0_receiver_transport_params_rtp.json" },
+                { "$ref": "v1.0_receiver_transport_params_dash.json" }
             ]
         }
     }
@@ -2276,8 +2276,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_receiver_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_receiver_transport_params_dash.json" }
+                { "$ref": "v1.0_receiver_transport_params_rtp.json" },
+                { "$ref": "v1.0_receiver_transport_params_dash.json" }
             ]
         }
     }
@@ -2457,8 +2457,8 @@
         "transport_params": {
             "description": "Transport-specific parameters",
             "oneOf": [
-                { "$ref": "schemas/v1.0_receiver_transport_params_rtp.json" },
-                { "$ref": "schemas/v1.0_receiver_transport_params_dash.json" }
+                { "$ref": "v1.0_receiver_transport_params_rtp.json" },
+                { "$ref": "v1.0_receiver_transport_params_dash.json" }
             ]
         }
     }
@@ -2695,8 +2695,8 @@
     "transport_params": {
       "description": "Transport-specific parameters",
       "oneOf": [
-        { "$ref": "schemas/v1.0_receiver_transport_params_rtp.json" },
-        { "$ref": "schemas/v1.0_receiver_transport_params_dash.json" }
+        { "$ref": "v1.0_receiver_transport_params_rtp.json" },
+        { "$ref": "v1.0_receiver_transport_params_dash.json" }
       ]
     }
   }
