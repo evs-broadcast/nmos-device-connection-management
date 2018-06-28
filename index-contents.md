@@ -24,6 +24,8 @@
 
 [v1.0.x](branches/v1.0.x/)
 
+[v1.1-dev](branches/v1.1-dev/)
+
 ## Tags
 
 [v1.0](tags/v1.0/)
