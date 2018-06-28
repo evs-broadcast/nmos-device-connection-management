@@ -42,6 +42,8 @@ The links below are for the “master” branch of the repo. This is typically t
 
 [v1.0](tags/v1.0/)
 
+[v1.0_spec](tags/v1.0_spec/)
+
 [workshop-end](tags/workshop-end/)
 
 [workshop2-end](tags/workshop2-end/)
